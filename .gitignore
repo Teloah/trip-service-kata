@@ -15,6 +15,12 @@ _ReSharper.*/
 *.user
 _NCrunch_*/
 
+# Delphi Ignores
+*.dcu
+*.local
+Win32
+__history
+
 # Python Ignores
 *.pyc
 
