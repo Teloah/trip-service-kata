@@ -20,6 +20,7 @@ _NCrunch_*/
 *.local
 Win32
 __history
+*.identcache
 
 # Python Ignores
 *.pyc
