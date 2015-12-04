@@ -31,12 +31,12 @@ requires
   rtl;
 
 contains
-  User in 'User\User.pas',
   Trip in 'Trip\Trip.pas',
-  UserSession in 'User\UserSession.pas',
+  TripDAO in 'Trip\TripDAO.pas',
+  TripService in 'Trip\TripService.pas',
   DependendClassCallDuringUnitTestException in 'Exception\DependendClassCallDuringUnitTestException.pas',
   UserNotLoggedInException in 'Exception\UserNotLoggedInException.pas',
-  TripDAO in 'Trip\TripDAO.pas',
-  TripService in 'Trip\TripService.pas';
+  User in 'User\User.pas',
+  UserSession in 'User\UserSession.pas';
 
 end.
